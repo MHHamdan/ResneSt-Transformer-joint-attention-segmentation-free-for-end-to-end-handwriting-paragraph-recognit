@@ -113,7 +113,7 @@ class OCR(nn.Module):
 
 
 def make_model(vocab_len, hidden_dim=256, nheads=4,
-                 num_encoder_layers=4, num_decoder_layers=4):
+                 num_encoder_layers=4, num_decoder_layers=6):
     
     return OCR(vocab_len, hidden_dim, nheads,
                  num_encoder_layers, num_decoder_layers)
