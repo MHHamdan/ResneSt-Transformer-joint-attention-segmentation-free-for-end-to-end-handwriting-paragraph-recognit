@@ -1,0 +1,614 @@
+    1  htop
+    2  watch nvidia-smi
+    3  exit() exit
+    4  exit
+    5  ls
+    6  cd projects
+    7  ls
+    8  cd def-mcheriet/
+    9  ls
+   10  cd arahiche/
+   11  cd hamdan/
+   12  ls
+   13  nvidia-smi
+   14  module avail
+   15  ls
+   16  python
+   17  nvidia-smi
+   18  jupyter notebook list
+   19  ls
+   20  cd $SCRATCH
+   21  ls
+   22  cd
+   23  ls
+   24  cd scratch/
+   25  ls
+   26  htop
+   27  nvidia-smi
+   28  ls
+   29  cd scratch/
+   30  ls
+   31  module avail
+   32  ls | grep jup
+   33  module avail | grep ju
+   34  module avail | grep ana
+   35  module avail | grep con
+   36  python
+   37  module avail | grep pyth
+   38  module load python/3.9.6
+   39  module load gcc/9.3 openmpi/4.0.3 mkl
+   40  module list
+   41  module avail | grep nvid
+   42  python3 -m venv env
+   43  source env/bin/activate
+   44  ls
+   45  pip -V
+   46  pip install -U pip
+   47  module load python3.9
+   48  module avail | grep pyth
+   49  module load python/3.9.6 
+   50  module load gcc/9.3 
+   51  module save my_modules
+   52  source env/bin/activate
+   53  vi requ.txt
+   54  pip install -r requ.txt 
+   55  avail_wheels "torch*"
+   56  pip install --no-index torch torchvision torchtext torchaudio
+   57  avail_wheels "opencv"
+   58  pip install --no-index opencv
+   59  python
+   60  avail_wheels "cv"
+   61  pip install --no-index opencv-python
+   62  pip installopencv-python
+   63  pip install opencv-python
+   64  pip install h5py
+   65  pip install timm
+   66  module load my_module
+   67  ls
+   68  module restore my_modules
+   69  spurce env/bin/activate
+   70  source env/bin/activate
+   71  pip install jupyter
+   72  module restore my_modules
+   73  screen -S jup
+   74  nvidia-smi
+   75  ls
+   76  htop
+   77  nvidia-smi
+   78  watch nvidia-smi
+   79  ls
+   80  cd scratch/
+   81  ls
+   82  screen -ls
+   83  screen -S jup
+   84  cd scratch/
+   85  mkdir new_model
+   86  squeue -q hamdan
+   87  module list
+   88  module restore my_module
+   89  module list
+   90  module restore my_modules
+   91  module list
+   92  sbatch mt.sh 
+   93  module list
+   94  sbatch mt.sh 
+   95  squeue -q hamdan
+   96  sbatch mt.sh 
+   97  squeue -q hamdan
+   98  cd ..
+   99  ls
+  100  source env/bin/activate
+  101  cd scratch/
+  102  python mt.py 
+  103  module list
+  104  htop
+  105  module avail | grep mkl
+  106  pip uninstall cv2
+  107  python
+  108  module load imkl/2021.2.0 
+  109  python
+  110  pip install opencv-python
+  111  pip reinstall opencv-python
+  112  pip uninstall opencv-python
+  113  pip install opencv-python
+  114  python
+  115  avail_wheels | grep python
+  116  pip install opencv-python
+  117  pip uninstall opencv-python
+  118  pip install --no-index opencv_python_headless
+  119  python
+  120  sbatch mt.sh
+  121  squeue -q hamdan
+  122  pip install albumentations
+  123  sbatch mt.sh
+  124  squeue -q hamdan
+  125  squeue -q mcheriet
+  126  squeue -q hamdan
+  127  sbatch mt.sh
+  128  squeue -q hamdan
+  129  squeue -q mcheriet
+  130  cd /home/hamdan/.cache/torch/hub/checkpoints/
+  131  ls
+  132  cd
+  133  cd scratch/
+  134  python mt.py 
+  135  cd /home/hamdan/.cache/torch/hub/checkpoints/
+  136  ls
+  137  cd
+  138  sbatch mt.sh
+  139  squeue -q mcheriet
+  140  squeue -q hamdan
+  141  cd scratch/
+  142  sbatch mt.sh
+  143  squeue -q hamdan
+  144  squeue -q mcheriet
+  145  squeue -q def-mcheriet
+  146  squeue -q def-hamdan
+  147  sq
+  148  clear
+  149  sq
+  150  scancel -i 13119744
+  151  scancel -i 13119753
+  152  ssh ng30503
+  153  scancel -i 13119787
+  154  sbatch mt.sh
+  155  sq
+  156  ssh ng10503
+  157  sq
+  158  scancel -i 13119819
+  159  sbatch mt.sh
+  160  sq
+  161  sbatch mt.sh
+  162  ls
+  163  cd scratch/
+  164  ls
+  165  sq
+  166  screen -ls
+  167  sq
+  168  screen -S jup
+  169  sq
+  170  ssh ng10201
+  171  watch nvidia-smi
+  172  sq
+  173  jupyter notebook list
+  174  ls
+  175  cd scratch/
+  176  ls
+  177  cat slurm-13120001.out 
+  178  ls
+  179  cd new_model/
+  180  ls
+  181  cd ..
+  182  ls
+  183  cat mt.py
+  184  ls
+  185  cat mt.sh
+  186  ls
+  187  pwd
+  188  ls
+  189  screen -r jup
+  190  source env/bin/activate
+  191  ipykernel
+  192  ipython
+  193  watch nvidia-smi
+  194  source env/bin/activate
+  195  pip install --no-index ipykernel
+  196  screen -r jup
+  197  watch nvidia-smi
+  198  source env/bin/activate
+  199  ipython
+  200  cd scratch/
+  201  ls
+  202  sbatch mt.sh
+  203  sq
+  204  module restore my_modules
+  205  module avail | grep cud
+  206  module load cuda/11.7
+  207  watch nvidia-smi
+  208  sq
+  209  scancel -i 13261380
+  210  sq
+  211  sbatch mt.sh
+  212  sq
+  213  sbatch mt.sh
+  214  sq
+  215  ssh ng10103
+  216  sq
+  217  scancel -i 13261461
+  218  sbatch mt.sh
+  219  sq
+  220  ssh ng10103
+  221  ls
+  222  python mt.py
+  223  cd
+  224  source env/bin/activate
+  225  cd scratch/
+  226  python mt.
+  227  python mt.py
+  228  sbatch mt.sh
+  229  sq
+  230  scancel -i 13261886
+  231  sbatch mt.sh
+  232  ssh ng20203
+  233  sq
+  234  ssh ng10103
+  235  sq
+  236  scancel -i ng10103
+  237  scancel -i 13261923
+  238  sbatch mt.sh 
+  239  s
+  240  sq
+  241  ssh ng10103
+  242  ssh ng10103
+  243  ls
+  244  source env/bin/activate
+  245  pip install argparse
+  246  source env/bin/activate
+  247  cd scratch/
+  248  python train_resnest.py --target_path "saved_models" --file_path "rimes_paragraph_pretraining.hdf5" --batch_size 40 --charset_base 'm.YTD8S-I!R=ôùQELjqFnW39UlK\n;*ûuw0B vA7NâZa_€g²Xc1\'?h¤tOçeÀsë4iîœ{6(}k:5dèÉ+é/°fMPCy,xJbzêV2")%HàGorp'
+  249  python
+  250  ls
+  251  python
+  252  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_length 1200
+  253  source env/bin/activate
+  254  ls
+  255  cd
+  256  source env/bin/activate
+  257  cd scratch/
+  258  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_length 1200
+  259  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_text_length 1200
+  260  nvidia-smi
+  261  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_text_length 1200
+  262  vi train_resnest.py 
+  263  htop
+  264  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_text_length 1200
+  265  pip install timm
+  266  wheel avail timm
+  267  wheel avail "timm"
+  268  module restore my_modules
+  269  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_text_length 1200
+  270  cd
+  271  sq
+  272  scancel -i 13261942
+  273  module restore my_modules
+  274  cd
+  275  source env/bin/activate
+  276  cd scratch/
+  277  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_text_length 1200
+  278  python
+  279  cd home/hamdan/.cache/torch/hub/checkpoints/
+  280  cd /home/hamdan/.cache/torch/hub/checkpoints/
+  281  ls
+  282  ll
+  283  ll -h
+  284  cd
+  285  python train_resnest.py --target_path "saved_models" --file_path "iam_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab'
+  286  cd scratch/
+  287  cd
+  288  vi .bashrc 
+  289  source .bashrc 
+  290  cd scratch/
+  291  salloc --time=1:0:0 --gpus-per-node=1
+  292  source env/bin/activate
+  293  cd scratch/
+  294  python train_resnest.py --target_path "saved_models" --file_path "rimes_paragraph_pretraining.hdf5" --batch_size 40 --carset_base 'rimes_vocab'
+  295  python train_resnest.py --target_path "saved_models" --file_path "rimes_paragraph_pretraining.hdf5" --batch_size 40 --charset_base 'rimes_vocab'
+  296  ssh ng10609
+  297  screen -ls
+  298  python train_resnest.py --target_path "saved_models/^C--file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  299  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  300  cd scratch/
+  301  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  302  source env/bin/activate
+  303  cd
+  304  source env/bin/activate
+  305  cd scratch/
+  306  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  307  module restore my_modules
+  308  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  309  watch nvidia-smi
+  310  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  311  cd scratch/
+  312  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  313  module list
+  314  module restore my_modules
+  315  source env/bin/activate
+  316  cd scratch/
+  317  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  318  pip list
+  319  pip install timm==0.6.11
+  320  module restore my_modules
+  321  source env/bin/activate
+  322  cd scratch/
+  323  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  324  shh ng10402
+  325  ssh ng10402
+  326  source env/bin/activate
+  327  pip install timm==0.6.11
+  328  cd /home/hamdan/env/lib/python3.9/site-packages/timm
+  329  ls
+  330  cd models/
+  331  ls
+  332  cd ..
+  333  ls
+  334  cd models/
+  335  ls
+  336  vi factory.py 
+  337  vi resnest.py 
+  338  vi helpers.py 
+  339  vi resnet.py 
+  340  watch nvidia-smi
+  341  source env/bin/activate
+  342  cd scratch/
+  343  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 20 --charset_base 'rimes_vocab' --max_text_length 1200
+  344  cd
+  345  ls
+  346  mv rimes_paragraph_finetune.hdf5 scratch/
+  347  cd scratch/
+  348  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 20 --charset_base 'rimes_vocab' --max_text_length 1200
+  349  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 30 --charset_base 'rimes_vocab' --max_text_length 1200
+  350  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 32 --charset_base 'rimes_vocab' --max_text_length 1200
+  351  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 40 --charset_base 'rimes_vocab' --max_text_length 1200
+  352  python train_resnest.py --target_path "saved_models/" --file_path "rimes_paragraph_finetune.hdf5" --batch_size 32 --charset_base 'rimes_vocab' --max_text_length 1200
+  353  watch nvidia-smi
+  354  salloc --time=1:0:0 --gpus-per-node=1 --mem=40000M 
+  355  cd scratch/
+  356  sbatch resnest.sh 
+  357  sq
+  358  scancel -i ng10402
+  359  scancel -i 13310803
+  360  sbatch resnest.sh 
+  361  sq
+  362  ssh ng10204
+  363  sbatch resnest.sh 
+  364  sq
+  365  ssq
+  366  sq
+  367  python
+  368  source env/bin/activate
+  369  python
+  370  salloc --time=1:0:0 --gpus-per-node=1
+  371  pip install -U timm
+  372  cd home/hamdan/.cache/torch/hub/checkpoints/cd
+  373  ssh ng10402
+  374  cd scratch/
+  375  python train_vit.py 
+  376  ¸¸¸çlear
+  377  clear
+  378  python train_vit.py 
+  379  cd 
+  380  cd .cache/
+  381  ls
+  382  cd torch/
+  383  ls
+  384  cd hub/checkpoints/
+  385  ls
+  386  ll -h
+  387  cd
+  388  cd scratch/
+  389  ls
+  390  clear
+  391  sbatch vit.sh 
+  392  q
+  393  sq
+  394  sbatch vit.sh 
+  395  sq
+  396  sbatch vit.sh 
+  397  sq
+  398  scancel -i 13311629
+  399  sq
+  400  sbatch vit.sh 
+  401  sq
+  402  q
+  403  sq
+  404  sbatch swins.sh 
+  405  sq
+  406  sbatch swins.sh 
+  407  sq
+  408  sbatch swins.sh 
+  409  sq
+  410  sbatch swins.sh 
+  411  sbatch vit.sh 
+  412  sbatch resnest.sh 
+  413  sq
+  414  screen -r nar
+  415  screen -r narval
+  416  sq
+  417  cd scratch/
+  418  sbatch resnest.sh 
+  419  sq
+  420  scancel -i 13386612
+  421  sbatch resnest.sh 
+  422  sq
+  423  scancel -i 13386636
+  424  sbatch resnest.sh 
+  425  sq
+  426  scancel -i 13386643
+  427  sbatch resnest.sh 
+  428  sq
+  429  cd scratch/
+  430  sbatch resnest.sh 
+  431  sq
+  432  sbatch swins.sh 
+  433  sq
+  434  scancel -i 13390749
+  435  sbatch swins.sh 
+  436  sq
+  437  scancel -i 13390847 13390561 13390597
+  438  sbatch swins.sh 
+  439  s
+  440  qsq
+  441  sq
+  442  sbatch 13391265
+  443  sacencel -i 13391265
+  444  scancel -i 13391265
+  445  sbatch swins.sh 
+  446  sq
+  447  scancel -i 13391274
+  448  sbatch swin.s
+  449  sbatch swin.sh
+  450  sbatch resnest.sh 
+  451  sq
+  452  scancel -i 13391311
+  453  sbatch resnest.sh 
+  454  sq
+  455  sbatch swins.sh 
+  456  sq
+  457  cd scratch/
+  458  sbatch resnest.sh 
+  459  sq
+  460  scancel -i 13393684
+  461  sbatch resnest.sh 
+  462  sq
+  463  scancel -i 13394006
+  464  sbatch resnest.sh 
+  465  sq
+  466  scancel -i 13394463
+  467  sq
+  468  sbatch scratch/resnest.sh 
+  469  sq
+  470  s
+  471  sq
+  472  sq
+  473  cd scratch/
+  474  sbatch resnest.sh 
+  475  sq
+  476  scancel -i 13416270
+  477  cd scratch/
+  478  sbatch resnest.sh 
+  479  sq
+  480  s
+  481  sq
+  482  scancel -i 13480848
+  483  sbatch resnest.sh 
+  484  sq
+  485  cd scratch/
+  486  sbatch resnest.sh 
+  487  cd scratch/
+  488  sbatch resnest.sh 
+  489  sq
+  490  sbatch resnest.sh 
+  491  sq
+  492  screen -ls
+  493  source env/bin/activate
+  494  screen -S jup
+  495  ls
+  496  cd scratch/
+  497  ls
+  498  source env/bin/activate
+  499  clear
+  500  ls
+  501  cd scratch/
+  502  ls
+  503  cd saved_models/
+  504  ls
+  505  clear
+  506  cd scratch/
+  507  ls
+  508  clear
+  509  cd scratch/
+  510  ls
+  511  cd scratch/
+  512  ls
+  513  cd scratch/
+  514  ls
+  515  clear
+  516  ls
+  517  cd scratch/
+  518  cd ..
+  519  ls
+  520  source env/bin/activate
+  521  jupyter notebook
+  522  q
+  523  source env/bin/activate
+  524  jupyter notebook --no-browser
+  525  screen -ls
+  526  screen -r -d jup
+  527  cd scratch/
+  528  sbatch resnest.sh 
+  529  sq
+  530  clear
+  531  source env/bin/activate
+  532  jupyter notebook --no-browser
+  533  screen -ls
+  534  screen -S jup
+  535  ls
+  536  screen -ls
+  537  screen -S jup
+  538  screen -ls
+  539  htop
+  540  screen -S jup
+  541  source env/bin/activate
+  542  jupyter notebook --no-browser
+  543  source env/bin/activate
+  544  jupyter notebook
+  545  sq
+  546  screen -ls
+  547  screen -r jup
+  548  htop
+  549  screen -r jup
+  550  source env/bin/activate
+  551  jupyter notebook --no-browser
+  552  cd scratch/
+  553  sbatch resnest.sh 
+  554  sq
+  555  screen -ls
+  556  screen -S jup
+  557  source env/bin/activate
+  558  jupyter notebook --no-browser
+  559  screen -ls
+  560  htop
+  561  clear
+  562  jupyter notebook --no-browser
+  563  jupyter notebook --no-browser --port 8888
+  564  netstat -ptnl
+  565  netstat -ptnl | grep 8888
+  566  pkill 2547471
+  567  netstat -ptnl | grep 8888
+  568  htop
+  569  jupyter notebook --no-browser
+  570  screen -ls
+  571  screen -S jup
+  572  source env/bin/activate
+  573  jupyter notebook --no-browser
+  574  source env/bin/activate
+  575  jupyter notebook
+  576  cler
+  577  cd scratch/
+  578  sbatch resnest.sh 
+  579  sq
+  580  scancel -i 13816412
+  581  scancel -i 13804772
+  582  screen -S jup
+  583  htop
+  584  clear
+  585  screen -ls
+  586  screen -S jup
+  587  ls
+  588  cd scratch/
+  589  ls
+  590  vim read_vocab 
+  591  cd new_model/
+  592  ls
+  593  cd ..
+  594  ls
+  595  vim mt.sh
+  596  screen -S jup
+  597  htop
+  598  netstat pltn
+  599  netstat -pltn | grep 8888
+  600  pkill 4139729
+  601  netstat -pltn | grep 8888
+  602  pkill -9 4139729
+  603  netstat -pltn | grep 8888
+  604  kill -9 4139729
+  605  netstat -pltn | grep 8888
+  606  screen -ls
+  607  screen -r jup
+  608  screen -r -d jup
+  609  history
+  610  ls
+  611  history -a commands.txt
+  612  ls
+  613  history commands.txt
+  614  history > command.txt

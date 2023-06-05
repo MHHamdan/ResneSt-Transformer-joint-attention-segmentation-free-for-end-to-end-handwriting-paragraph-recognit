@@ -1,0 +1,4 @@
+screen -r -d jup
+history
+ls
+history -a commands.txt
